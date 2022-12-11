@@ -6,6 +6,7 @@ import getToDos from '../controllers/getToDos';
 import update from '../controllers/updateToDo';
 import deleted from '../controllers/deleteToDo';
 import create from '../controllers/createToDo';
+import welcome from "../controllers/welcome"
 
 
 const router = express.Router();
@@ -17,5 +18,7 @@ router.put('/api/v1/auth/signin', update);
 router.delete('/api/:id', deleted);
 
 router.get('/api/todos', getToDos);
+
+router.get('/api/welcome', welcome)
 
 export default router; 
