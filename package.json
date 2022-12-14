@@ -7,7 +7,7 @@
     "start": "ENV=production babel-node ./app.js",
     "dev": "nodemon --exec babel-node ./app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "pm-starter": "pm2 start ./app.js"
+    "pm-starter": "pm2 start npm --name app -- start"
   },
   "repository": {
     "type": "git",
