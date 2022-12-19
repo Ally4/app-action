@@ -32,4 +32,5 @@ jobs:
     # - run: npm ci
     # - run: npm run build --if-present
     - run: npm install
+    - run: npm run pm-stop
     - run: npm run pm-start
