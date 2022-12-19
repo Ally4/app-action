@@ -9,7 +9,7 @@ const welcome = (req, res, err) => {
   try {
          return  res.status(200).json({
         status: 200,
-        message: "Welcome to our todo application"
+        message: "Welcome to our todo application which is wonderful"
       });
 }catch(err){
   console.log("This is the error", err)
