@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "pm-start": "pm2 start npm --name app -- start",
     "pm-stop":"pm2 stop app"
-  },
+  }, 
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Ally4/app-action.git"
