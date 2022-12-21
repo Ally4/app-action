@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "pm-start": "pm2 start npm --name app -- start",
     "pm-stop":"pm2 stop app",
-    "Life":"is good"
+    "Life":"is good, but also not long"
   }, 
   "repository": {
     "type": "git",
