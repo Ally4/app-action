@@ -8,7 +8,8 @@
     "dev": "nodemon --exec babel-node ./app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "pm-start": "pm2 start npm --name app -- start",
-    "pm-stop":"pm2 stop app"
+    "pm-stop":"pm2 stop app",
+    "Life":"is good"
   }, 
   "repository": {
     "type": "git",
